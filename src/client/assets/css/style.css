@@ -1,0 +1,272 @@
+h1 {
+    color: #000;
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.required {
+    color: #f00;
+}
+
+.main-wrapper {
+    font-family: 'Helvetica';
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 50px 0 50px;
+    width: 1170px;
+}
+
+.top-header-container {
+    background-color: #FFFFFF;
+    height: 128px;
+}
+
+.top-header-container > div {
+    line-height: 128px;
+}
+
+.top-header-container .title {
+    float: left;
+}
+
+.top-header-container .navigation {
+    float: right;
+}
+
+.top-header-container .navigation ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.top-header-container .navigation ul li a.active {
+    color: #9013FE;
+    font-weight: bold;
+}
+
+.page-desp {
+    background-color: #EF3F55;
+    height: 150px;
+    padding: 25px 0 25px 0;
+}
+
+.page-desp h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.page-desp p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.home-container {
+    background-color: #FFFFFF;
+    color: #000;
+    height: 700px;
+}
+
+.about .content-desp h2 {
+    font-size: 25px;
+    margin: 25px 0 25px 0;
+}
+
+.about .content-desp p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.sub-container {
+    padding-top: 50px;
+}
+
+.sub-container .contact-form {
+    width: 580px;
+}
+
+.sub-container .contact-form p.note {
+    margin:25px 0 20px 0 ;
+    color: #333;
+}
+
+.sub-container .form-group {
+    margin-bottom: 20px;
+}
+
+.sub-container .form-group label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.sub-container .form-group input {
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    height: 48px;
+    padding: 4px;
+    font-family: 'Helvetica' !important;
+    color: #333;
+    font-size: 20px;
+}
+
+.btn-default {
+    background: #03A6B5;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    width: 140px;
+    height: 48px;
+    font-size: 24px;
+    font-family: 'Helvetica', Arial, Sans-Serif;
+    margin-top: 30px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    line-height: 48px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.home-tabs {
+
+}
+
+.home-tab {
+    background-color: #FFFFFF;
+    color: #000;
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+}
+
+.home-tab-left {
+    float: left;
+}
+
+.home-tab-right {
+    float: right;
+}
+
+.feeds {
+    clear: both;
+}
+
+.journey-level > a div {
+    line-height: 150px;
+    height: 150px;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    border: 0.5px solid #B7C1CC;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.journey-level a div.stability {
+    background: url('../images/stabilitynormal@2x.png') no-repeat left 100px center #F6F6F6;
+}
+
+.journey-level a div.development {
+    background: url('../images/developmentnormal@2x.png') no-repeat left 105px center #F6F6F6;
+}
+
+.journey-level a div.growth {
+    background: url('../images/growthnormal@2x.png') no-repeat left 115px center #F6F6F6;
+}
+
+.journey-level a.active div.stability {
+    background: url('../images/stabilityactive@2x.png') no-repeat left 100px center;
+}
+
+.journey-level a.active div.development {
+    background: url('../images/developmentactive@2x.png') no-repeat left 105px center;
+}
+
+.journey-level a.active div.growth {
+    background: url('../images/growthactive@2x.png') no-repeat left 115px center;
+}
+
+.journey-level a.active {
+    color: #9013FE;
+    font-weight: bold;
+}
+
+.journey-content {
+    clear: both;
+}
+
+.description {
+    width: 750px;
+}
+
+.journey-content .container > div {
+    height: 100px;
+    float: left;
+    margin: 35px 0 35px 0;
+    padding: 26px;
+}
+
+.description span {
+    font-size: 25px;
+}
+
+.description p {
+    font-size: 15px;
+    color: #645E5E;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.pregnancy-details {
+    border-left: 1px solid #B7C1CC;
+}
+
+.pregnancy-details table thead tr th {
+    height: 26px;
+}
+
+.pregnancy-details table tbody tr {
+    font-size: 15px;
+    color: #645E5E;
+    line-height: 25px;
+}
+
+.factors {
+    background-color: #F6F6F6;
+    clear: both;
+}
+
+.factors .container {
+    text-align: center;
+}
+
+.factors .container ul li {
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 300px;
+    line-height: 100px;
+    text-align: center;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.extreme-level {
+    background-color: #DCCBF2;
+}
+

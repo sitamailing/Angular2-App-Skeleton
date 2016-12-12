@@ -1,0 +1,47 @@
+{
+  "name": "angular-app-skeleton",
+  "version": "1.0.0",
+  "description": "Application Skeleton on Angular2",
+  "scripts": {
+    "start": "run-s lint dev",
+    "lint": "tslint ./src/client/app/**/*.ts",
+    "dev": "run-s tsc:w lite",
+    "lite": "lite-server -c ./src/client/bs-config.json",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitamailing/Angular2-App-Skeleton.git"
+  },
+  "author": "Sita Prajapati <sitamailing@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sitamailing/Angular2-App-Skeleton/issues"
+  },
+  "homepage": "https://github.com/sitamailing/Angular2-App-Skeleton#readme",
+  "dependencies": {
+    "@angular/common": "^2.2.4",
+    "@angular/compiler": "^2.2.4",
+    "@angular/core": "^2.2.4",
+    "@angular/forms": "^2.3.0",
+    "@angular/http": "^2.3.0",
+    "@angular/platform-browser": "^2.2.4",
+    "@angular/platform-browser-dynamic": "^2.2.4",
+    "@angular/router": "^3.3.0",
+    "angular2-in-memory-web-api": "0.0.21",
+    "core-js": "^2.4.1",
+    "npm-run-all": "^3.1.2",
+    "reflect-metadata": "^0.1.8",
+    "router": "^1.1.4",
+    "rxjs": "^5.0.0-rc.5",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "tslint": "^4.0.2",
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0"
+  }
+}
