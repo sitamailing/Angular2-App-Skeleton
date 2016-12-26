@@ -7,9 +7,7 @@ import {Contact}    from './contact';
     templateUrl: `src/client/app/contact/contactForm.view.html`
 })
 export class ContactFormComponent {
-    powers = ['Really Smart', 'Super Flexible',
-        'Super Hot', 'Weather Changer'];
-    model = new Contact('q', 'q', 'q', 'q');
+    model = new Contact('First Name', 'Last Name', 'Email', 'Message');
     submitted = false;
 
     onSubmit() {

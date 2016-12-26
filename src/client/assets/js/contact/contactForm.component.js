@@ -12,9 +12,7 @@ var core_1 = require("@angular/core");
 var contact_1 = require("./contact");
 var ContactFormComponent = (function () {
     function ContactFormComponent() {
-        this.powers = ['Really Smart', 'Super Flexible',
-            'Super Hot', 'Weather Changer'];
-        this.model = new contact_1.Contact('q', 'q', 'q', 'q');
+        this.model = new contact_1.Contact('First Name', 'Last Name', 'Email', 'Message');
         this.submitted = false;
     }
     ContactFormComponent.prototype.onSubmit = function () {
